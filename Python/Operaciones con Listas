@@ -1,0 +1,37 @@
+Python 2.7.3 (default, Apr 10 2012, 23:31:26) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> len (0,1,2,3,4,5,6,7,8,9)
+
+Traceback (most recent call last):
+  File "<pyshell#0>", line 1, in <module>
+    len (0,1,2,3,4,5,6,7,8,9)
+TypeError: len() takes exactly one argument (10 given)
+>>> len ([0,1,2,3,4,5,6,7,8,9])
+10
+>>> lista = ['a','b','c','d','e','f','g','h']
+>>> len(lista)
+8
+>>> lista = [22,32,56,122,4,65,12,20,4334,567,1,676,3]
+>>> min(lista)
+1
+>>> max(lista)
+4334
+>>> sum(lista)
+5914
+>>> sum(lista) / len(lista)
+454
+>>> def promedio (lista):
+	return sum(lista) / len(lista)
+alfabeto = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+SyntaxError: invalid syntax
+>>> def promedio (lista):
+	return sum(lista) / len(lista)
+>>> alfabeto = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+SyntaxError: invalid syntax
+>>> alfabeto = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+>>> digitos = [0,1,2,3,4,5,6,7,8,9]
+>>> letras = [letra for letra in alfabeto if letra < 'f']
+>>> letras_en_python = [c for c in "python"]
+>>> pares = [n for n in digitos if n % 2 == 0]
+>>> impares = [n for n in digitos if n % 2 == 1]
+>>> 
